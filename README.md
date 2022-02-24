@@ -4,7 +4,7 @@ Alpine custom image for Nodejs and Mongodb hosted in Azure VPS
 
 ## afw
 ```bash
-docker push lighty262/afw:latest
+docker pull lighty262/afw:latest
 ```
  - alpine:3.15
  - node:^16.x
@@ -13,7 +13,7 @@ docker push lighty262/afw:latest
 
 ## alpine-npm
 ```bash
-docker push lighty262/alpine-npm:latest
+docker pull lighty262/alpine-npm:latest
 ```
  - alpine:3.15
  - node:^16.x
@@ -21,7 +21,7 @@ docker push lighty262/alpine-npm:latest
 
 ## alpine-mongodb
 ```bash
-docker push lighty262/alpine-mongodb:latest
+docker pull lighty262/alpine-mongodb:latest
 ```
  - alpine:3.15
  - mongodb:3
